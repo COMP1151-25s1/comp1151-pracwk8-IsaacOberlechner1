@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Spawner
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Spawner","summary":"A
+      spawner for our asteroids","pan":{"x":-572.0,"y":-368.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-933.0,"y":-539.0},"guid":"d68ebe68-d570-4033-b7bc-4ac6ad451cf0","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Asteroid","$type":"System.String"},"object":null},"position":{"x":-906.0,"y":-381.0},"guid":"e2e55b57-c6a9-4041-b5f4-b28739455209","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"chainable":false,"parameterNames":["original","parent"],"member":{"name":"Instantiate","parameterTypes":["UnityEngine.Object","UnityEngine.Transform"],"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"%original":null,"%parent":null},"position":{"x":-695.0,"y":-534.0},"guid":"1d5138de-f002-42bc-b3a8-0444eaf4b1a3","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"defaultValues":{},"position":{"x":-851.0,"y":-237.0},"guid":"795f687a-0fb5-4cac-a1c5-65e172f3fc6b","$version":"A","$type":"Unity.VisualScripting.This","$id":"17"},{"chainable":false,"parameterNames":[],"member":{"name":"DetachChildren","parameterTypes":[],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-489.0,"y":-536.0},"guid":"afe570a7-c9a3-4083-b7ae-c8d4af9f4c19","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"19"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"76f82ff5-0472-4441-a973-4cfd0a287b16","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"exit","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"cd073f11-0d09-4837-9672-7cc4b5aaddae","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"%original","guid":"d04c85fd-3c22-463f-94aa-0000e74c8f3a","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"self","destinationUnit":{"$ref":"13"},"destinationKey":"%parent","guid":"47b6f1b2-7a76-46c8-9e85-b2c173232302","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
