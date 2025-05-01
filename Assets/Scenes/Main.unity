@@ -134,7 +134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &35496789
 Transform:
   m_ObjectHideFlags: 0
@@ -695,11 +695,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8324793095478476, guid: c046bb0dbde944c1d99bb8e225c76683, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.95
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 8324793095478476, guid: c046bb0dbde944c1d99bb8e225c76683, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.77
+      value: -2.81
       objectReference: {fileID: 0}
     - target: {fileID: 8324793095478476, guid: c046bb0dbde944c1d99bb8e225c76683, type: 3}
       propertyPath: m_LocalPosition.z
@@ -760,7 +760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8281260518316283463, guid: f29318e673a94f44bbb7eb51237af52e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.68
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8281260518316283463, guid: f29318e673a94f44bbb7eb51237af52e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -768,7 +768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8281260518316283463, guid: f29318e673a94f44bbb7eb51237af52e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.04731319
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8281260518316283463, guid: f29318e673a94f44bbb7eb51237af52e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -811,6 +811,19 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 806496091}
     m_Modifications:
+    - target: {fileID: 4690050853566077408, guid: 2981139d566e5324b962ca142f70d103, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"asteroid","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690050853566077408, guid: 2981139d566e5324b962ca142f70d103, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690050853566077408, guid: 2981139d566e5324b962ca142f70d103, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2017249161598327038, guid: 06401c07b24087e449cafe6f61f29809, type: 3}
     - target: {fileID: 5176571526069305715, guid: 2981139d566e5324b962ca142f70d103, type: 3}
       propertyPath: m_Name
       value: Destroyer_Asteroid
@@ -854,6 +867,10 @@ PrefabInstance:
     - target: {fileID: 6290272731593963084, guid: 2981139d566e5324b962ca142f70d103, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572113446744283106, guid: 2981139d566e5324b962ca142f70d103, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
